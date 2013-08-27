@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
-  #config.vm.hostname = "ggsn-simulation-chef-berkshelf"
+  config.vm.hostname = "vagrant"
 
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "debian-wheezy-x86"
